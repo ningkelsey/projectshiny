@@ -1,0 +1,12 @@
+---
+title: "Instructions"
+output: html_document
+---
+
+This application is designed to check out the results of motor trend car road tests. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). 
+
+From the left panel, one can choose the two variables X and Y, then the plot of the corelation between the two variables appears on the right side. A smoothed condition mean can be added into the plot by check the box of Smooth. Comparisons of different variables can be added through Facet Row and Facet Column panel. 
+
+Here, we also want to show how the vehicle weight effect on the fuel consumption. Based on the linear regression model of weight on mpg, we can predict the mpg (fit value with upper/lower end points) by entering the weight.
+
+Codes (ui.R & server.R) can be found [here](https://github.com/ningkelsey/project)
